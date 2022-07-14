@@ -1,6 +1,9 @@
 @import './abstract/variables';
 @import './abstract/mixins';
+@import './components/navigation';
+@import './components/background';
 @import './components/rodape';
+@import './components/button';
 @import './pages/login';
 
 * {
