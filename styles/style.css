@@ -1,0 +1,35 @@
+.rodape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 6.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #36D6AD;
+}
+
+.rodape .rodape-texto {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+body .bg-login {
+  width: 100vw;
+  height: 100vh;
+  background: #3772FF;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

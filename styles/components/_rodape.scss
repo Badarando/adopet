@@ -1,0 +1,20 @@
+.rodape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+    width: auto;
+    height: 6.5rem;
+
+    @include flex;
+    background-color: $verde;
+
+    .rodape-texto {
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        
+    }
+}
