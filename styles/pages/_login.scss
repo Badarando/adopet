@@ -11,7 +11,7 @@
             margin-top: 20vh;
             width: auto;
             height: auto;
-            border: 1px solid red;
+           
 
         }
 
@@ -19,8 +19,6 @@
             width: 100vw;
             height: 18vh;
             
-            
-            border: 1px solid green;
 
                 .title-login {
                     font-family: 'IBM Plex Sans', sans-serif;
@@ -39,9 +37,23 @@
 
         .btn-area-login {
             width: 100vw;
-            height: 18vh;
+            height: 13vh;
+            @include flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding-top: .5rem;
+            
+        }
 
-            border: 2px solid yellow;
+        .ilustration-area-login {
+            width: 100vw;
+            height: 33vh;
+            
+                .ilustration-login {
+                    margin-left: 2rem;
+                    height: 100%;
+                }
+
         }
 
 

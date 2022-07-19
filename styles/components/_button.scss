@@ -1,1 +1,13 @@
- 
+.btn-login {
+    width: 11.5rem;
+    height: 2.6rem;
+    margin-bottom: 1rem;
+
+    font-weight: 600;
+
+    color: white;
+    background-color: $orange;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: .2rem .2rem .3rem rgba(0, 0, 0, 0.274);
+}

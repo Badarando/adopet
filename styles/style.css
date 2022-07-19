@@ -50,6 +50,18 @@
   font-size: 1rem;
 }
 
+.btn-login {
+  width: 11.5rem;
+  height: 2.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #FC7071;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.274);
+}
+
 .bg-login {
   width: 100vw;
   height: 100vh;
@@ -65,12 +77,10 @@
   margin-top: 20vh;
   width: auto;
   height: auto;
-  border: 1px solid red;
 }
 .bg-login main .principal-content-login {
   width: 100vw;
   height: 18vh;
-  border: 1px solid green;
 }
 .bg-login main .principal-content-login .title-login {
   font-family: "IBM Plex Sans", sans-serif;
@@ -86,8 +96,21 @@
 }
 .bg-login main .btn-area-login {
   width: 100vw;
-  height: 18vh;
-  border: 2px solid yellow;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 0.5rem;
+}
+.bg-login main .ilustration-area-login {
+  width: 100vw;
+  height: 33vh;
+}
+.bg-login main .ilustration-area-login .ilustration-login {
+  margin-left: 2rem;
+  height: 100%;
 }
 
 * {
